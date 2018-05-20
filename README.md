@@ -21,8 +21,8 @@ class EconomicDependent{
         int getAge();
 
         /*** setters ***/
-        void setLast(const Name&);
-        void setFirst(const int&);
+        void setName(const Name&);
+        void setAge(const int&);
 
         std::string toString();     ///Imprime datos
 };
